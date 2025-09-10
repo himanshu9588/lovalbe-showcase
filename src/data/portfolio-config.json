@@ -19,6 +19,8 @@
       { "name": "MS Office Suite", "level": 85 },
       { "name": "Communication & Presentation", "level": 80 },
       { "name": "Basic Programming", "level": 75 },
+      { "name": "C Language", "level": 55 },
+      { "name": "python basics", "level": 35 },
       { "name": "Teamwork & Problem-Solving", "level": 90 },
       { "name": "Hindi & English", "level": 95 },
       { "name": "Computer Applications", "level": 80 }
@@ -27,13 +29,13 @@
       {
         "company": "Amity University",
         "position": "Bachelor of Computer Applications",
-        "duration": "2021 - 2024",
-        "description": "Completed BCA degree with focus on computer applications, programming, and technology fundamentals."
+        "duration": "2025 - 2028",
+        "description": "Completing BCA degree with focus on computer applications, programming, and technology fundamentals."
       },
       {
         "company": "Academic Projects",
         "position": "Student Developer",
-        "duration": "2021 - 2024",
+        "duration": "30 August 2024 - 03 September 2024",
         "description": "Participated in hackathons, masterclasses, and various extracurricular activities to enhance technical and soft skills."
       }
     ]
