@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+# 3D Portfolio Website
 
-## Project info
+A stunning, interactive portfolio website featuring 3D animations, immersive transitions, and fully editable content.
 
-**URL**: https://lovable.dev/projects/1f0d936e-1463-497f-9fe5-eb7d92a876e9
+## 🚀 Features
 
-## How can I edit this code?
+- **3D Animations**: Interactive 3D elements powered by React Three Fiber
+- **Immersive Design**: Glass morphism effects with vibrant gradients
+- **Fully Editable**: Easy content management through JSON configuration
+- **Responsive**: Beautiful design across all devices
+- **Modern Stack**: React, TypeScript, Three.js, Framer Motion, Tailwind CSS
 
-There are several ways of editing your application.
+## 🎨 Design System
 
-**Use Lovable**
+The portfolio uses a carefully crafted design system with:
+- **Dark Theme**: Professional dark interface with neon accents
+- **3D Elements**: Floating geometric shapes and interactive components
+- **Gradients**: Purple to blue primary gradients with cyan neon accents
+- **Glass Effects**: Subtle transparency and backdrop blur
+- **Smooth Animations**: Framer Motion powered transitions
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1f0d936e-1463-497f-9fe5-eb7d92a876e9) and start prompting.
+## ✏️ Editing Your Portfolio
 
-Changes made via Lovable will be committed automatically to this repo.
+All content is easily editable through the configuration file:
 
-**Use your preferred IDE**
+### Personal Information
+Edit `src/data/portfolio-config.json` to update:
+- Name, title, and tagline
+- Contact information and social links
+- Location and professional details
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### About Section
+Customize:
+- Personal description
+- Technical skills with proficiency levels
+- Work experience and timeline
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Projects
+Add/edit projects with:
+- Project titles and descriptions
+- Technology stacks
+- Live demo and GitHub links
+- Featured project status
 
-Follow these steps:
+### Services
+Update the services you offer:
+- Service titles and descriptions
+- Custom icons and styling
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠️ Quick Edits
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. **Personal Info**: Update the `personal` section in `portfolio-config.json`
+2. **Skills**: Modify the `skills` array with your technologies
+3. **Projects**: Add new projects to the `projects` array
+4. **Experience**: Update your work history in the `experience` section
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🎯 3D Customization
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+The 3D elements can be customized in:
+- `src/components/3d/FloatingGeometry.tsx` - Geometric shapes
+- `src/components/3d/Scene3D.tsx` - 3D scene configuration
+- Individual section components for specific 3D effects
 
-**Edit a file directly in GitHub**
+## 🚀 Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Edit `src/data/portfolio-config.json` with your information
+4. Run development server: `npm run dev`
+5. Build for production: `npm run build`
 
-**Use GitHub Codespaces**
+## 📱 Sections
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Hero**: Animated introduction with 3D background
+- **About**: Skills, experience, and personal information
+- **Projects**: Featured work with interactive cards
+- **Contact**: Contact form with social links
 
-## What technologies are used for this project?
+## 🎨 Color Scheme
 
-This project is built with:
+- **Primary**: Purple gradient (#8B5CF6 to lighter variant)
+- **Neon**: Cyan accent (#00D4FF)
+- **Background**: Dark theme with subtle gradients
+- **Glass**: Semi-transparent elements with blur effects
 
-- Vite
+## 📦 Technologies
+
+- React 18
 - TypeScript
-- React
-- shadcn-ui
+- Three.js & React Three Fiber
+- Framer Motion
 - Tailwind CSS
+- Vite
+- Shadcn/ui Components
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/1f0d936e-1463-497f-9fe5-eb7d92a876e9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built with ❤️ using modern web technologies and creative design principles.
